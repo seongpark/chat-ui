@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1407.944" height="1887.1" viewBox="0 0 1407.944 1887.1">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7a26f5"/>
+      <stop offset="1" stop-color="#4209f5"/>
+    </linearGradient>
+    <filter id="합치기_1" x="0" y="0" width="1407.944" height="1887.1" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="그룹_1" data-name="그룹 1" transform="translate(-140.163 -95.901)">
+    <g transform="matrix(1, 0, 0, 1, 140.16, 95.9)" filter="url(#합치기_1)">
+      <path id="합치기_1-2" data-name="합치기 1" d="M-.747,1855.991V-.109H480.931q438.806,0,667.036,228.23T1376.2,920.375q0,226.969-59.264,400.978t-172.748,292.538Q1030.7,1732.419,868.039,1794.205t-371.977,61.786Z" transform="translate(16.25 14.61)" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>
